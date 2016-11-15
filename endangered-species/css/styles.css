@@ -1,18 +1,22 @@
+
+
 #nav {
+  margin-bottom: 20px;
   background-color: orange;
   display: block;
-  margin-left: 600px;
-    width: 30%;
+  margin-left: 500px;
+  width: 30%;
   text-align: center;
   padding: 30px;
 }
 
 #content {
-  margin: 50px;
+  display: block;
+  margin: auto;
   position: relative;
 }
 
-img {
+#badges img {
   border-radius: 30%;
 }
 
@@ -20,7 +24,7 @@ img {
   position: absolute;
   height: 100px;
   width: 100px;
-  bottom: 250px;
+  top: 750px;
   left: 700px;
 }
 
@@ -28,7 +32,7 @@ img {
   position: absolute;
   height: 100px;
   width: 100px;
-  top: 200px;
+  top: 150px;
   left: 1300px;
 }
 
@@ -45,15 +49,15 @@ img {
   height: 100px;
   width: 100px;
   top: 50px;
-  left: 800px;
+  left: 850px;
 }
 
 #tortoise {
   position: absolute;
   height: 100px;
   width: 100px;
-  bottom: 400px;
-  left: 300px;
+  top: 450px;
+  left: 390px;
 }
 
 #seal {
@@ -69,7 +73,7 @@ img {
   height: 100px;
   width: 100px;
   top: 250px;
-  left: 900px;
+  left: 950px;
 }
 
 #fox {
@@ -84,8 +88,8 @@ img {
   position: absolute;
   height: 100px;
   width: 100px;
-  top: 80px;
-  left: 250px;
+  top: 150px;
+  left: 300px;
 }
 
 #wombmonk {
@@ -93,7 +97,7 @@ img {
   height: 100px;
   width: 100px;
   top: 550px;
-  left: 1450px;
+  left: 1500px;
 }
 
 #fish {
