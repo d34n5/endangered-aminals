@@ -1,23 +1,27 @@
-
+body {
+  background-color: #475B63;
+}
 
 #nav {
   margin-bottom: 20px;
-  background-color: orange;
+  background-color: #729B79;
+  border: solid 1px #BACDB0;
   display: block;
-  margin-left: 500px;
+  margin-left: 550px;
   width: 30%;
   text-align: center;
   padding: 30px;
+}
+
+#nav h1 {
+  font-family: 'Merienda', cursive;
+  padding: 0;
 }
 
 #content {
   display: block;
   margin: auto;
   position: relative;
-}
-
-#badges img {
-  border-radius: 30%;
 }
 
 #sperm-whale {
@@ -106,4 +110,24 @@
   width: 100px;
   top: 450px;
   left: 1650px;
+}
+
+#badges img {
+  border-radius: 30%;
+  -webkit-transition: all 1s ease;
+   -moz-transition: all 1s ease;
+     -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+        transition: all .5s ease;
+  /*-webkit-box-shadow: 10px 10px 38px 1px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 38px 1px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 38px 1px rgba(0,0,0,0.75);*/
+}
+
+#badges img:hover {
+  border: solid 2px mintcream;
+  filter: brightness(1.5);
+  height: 150px;
+  width: 150px;
+
 }
