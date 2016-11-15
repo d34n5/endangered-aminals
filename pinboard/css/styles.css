@@ -1,0 +1,25 @@
+body {
+  background-image: url("../img/cork-board.jpg");
+}
+
+#container::before{
+  content: url("../img/polaroid.png");
+  position: absolute;
+  top: -110px;
+  left: -120px;
+}
+
+#container{
+  position: relative;
+  top: 100px;
+  left: 100px;
+}
+
+#container::after{
+  content: url("../img/red-pin.png");
+  position: absolute;
+  height: 90px;
+  width: 88px;
+  top: -80px;
+  left: 240px;
+}
